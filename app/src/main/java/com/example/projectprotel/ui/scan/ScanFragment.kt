@@ -162,7 +162,7 @@ class ScanFragment : Fragment() {
 
                 GALLERY_REQUEST_CODE -> {
 
-
+                    //val testing
                     val galleryimage = data?.extras?.get("data") as Bitmap
                     binding.imagecam.setImageBitmap(galleryimage)
                 }
