@@ -35,8 +35,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+        <TextView
+            android:id="@+id/kategori1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kategori 1"
+            android:gravity="center" />
+
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/kategori1kiri"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginStart="16dp"
@@ -49,7 +56,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/kategori1kanan"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginTop="9dp"
@@ -76,8 +83,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+        <TextView
+            android:id="@+id/kategori2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kategori 2"
+            android:gravity="center" />
+
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/kategori2kiri"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginStart="16dp"
@@ -90,7 +104,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/kategori2kanan"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginTop="9dp"
@@ -113,13 +127,20 @@
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="226dp"
         android:background="@drawable/category_box"
-        app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+        app:layout_constraintBottom_toTopOf="@+id/searchbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
+        <TextView
+            android:id="@+id/kategori3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kategori 3"
+            android:gravity="center" />
+
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/kategori3kiri"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginStart="16dp"
@@ -132,7 +153,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/kategori3kanan"
             android:layout_width="23dp"
             android:layout_height="33dp"
             android:layout_marginTop="9dp"
@@ -146,7 +167,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout2"
+        android:id="@+id/searchbutton"
         android:layout_width="250dp"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
